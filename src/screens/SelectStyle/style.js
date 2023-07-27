@@ -1,10 +1,8 @@
-import { faShirtsinbulk } from '@fortawesome/free-brands-svg-icons';
-import { StyleSheet } from 'react-native';
-import { StyleSheetManager } from 'styled-components';
+import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
-    textStyle: {
-        fontSize: 17,
-        color: '#000'
-    }
+  textStyle: {
+    fontSize: 17,
+    color: '#000',
+  },
 });

@@ -1,10 +1,8 @@
 import React from 'react';
-import MaterialIcon from 'react-native-vector-icons/MaterialCommunityIcons';
-import RootStackNavigation from './src/navigations';
+import Root from './src/navigation';
 
-MaterialIcon.loadFont();
-export default (): JSX.Element => {
-  return (
-    <RootStackNavigation />
-  )
+function App(): JSX.Element {
+  return <Root />;
 }
+
+export default App;
